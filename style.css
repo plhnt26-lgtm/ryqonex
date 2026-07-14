@@ -30,3 +30,16 @@ h1 {
     color: #cccccc;
     font-size: 20px;
 }
+button {
+    background: #00ffcc;
+    color: #111;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+}
