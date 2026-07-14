@@ -20,3 +20,13 @@ h1 {
 p {
     font-size: 18px;
 }
+h1 {
+    font-size: 50px;
+    color: #00ffcc;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #cccccc;
+    font-size: 20px;
+}
