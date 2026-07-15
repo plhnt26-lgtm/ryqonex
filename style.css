@@ -281,3 +281,138 @@ button {
 
 
 }
+/* Ryqonex Version 4 Upgrade */
+
+
+/* Hero Glow Animation */
+
+.hero {
+    animation: heroFade 1.5s ease;
+}
+
+
+@keyframes heroFade {
+
+    from {
+        opacity:0;
+        transform:translateY(50px);
+    }
+
+    to {
+        opacity:1;
+        transform:translateY(0);
+    }
+
+}
+
+
+
+
+.hero h1 {
+
+    animation: neon 2s infinite alternate;
+
+}
+
+
+@keyframes neon {
+
+    from {
+
+        text-shadow:
+        0 0 10px #00ffcc;
+
+    }
+
+
+    to {
+
+        text-shadow:
+        0 0 30px #00ffcc,
+        0 0 60px #0099ff;
+
+    }
+
+}
+
+
+
+/* Card Glass Effect */
+
+.card {
+
+    backdrop-filter: blur(10px);
+
+}
+
+
+
+/* Smooth Link */
+
+a {
+
+    transition:0.3s;
+
+}
+
+
+
+/* Image Hover */
+
+.logo-image {
+
+    transition:0.5s;
+
+}
+
+
+.logo-image:hover {
+
+    transform:rotate(5deg) scale(1.1);
+
+}
+
+
+
+/* Token Price Highlight */
+
+.card h1 {
+
+    color:#00ffcc;
+
+}
+
+
+
+/* Button Pulse */
+
+button {
+
+    animation:pulse 3s infinite;
+
+}
+
+
+@keyframes pulse {
+
+    0% {
+
+        box-shadow:0 0 10px #00ffcc;
+
+    }
+
+
+    50% {
+
+        box-shadow:0 0 30px #00ffcc;
+
+    }
+
+
+    100% {
+
+        box-shadow:0 0 10px #00ffcc;
+
+    }
+
+    }
