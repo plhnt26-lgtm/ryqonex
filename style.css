@@ -110,3 +110,9 @@ footer {
 button {
     margin: 10px;
 }
+button:hover {
+    background: white;
+    color: #111;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
