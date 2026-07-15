@@ -239,3 +239,24 @@ a:hover {
     color: #00ffcc;
     margin-right: 30px;
     }
+.card {
+    animation: fadeIn 0.8s ease;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px rgba(0,255,204,0.5);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    }
