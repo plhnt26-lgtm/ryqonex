@@ -187,3 +187,7 @@ a:hover {
 .card * {
     color: white !important;
 }
+.card p,
+.card strong {
+    color: white !important;
+    }
