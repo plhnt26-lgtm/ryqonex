@@ -826,3 +826,44 @@ text-shadow:
 0 0 20px #00ffcc;
 
 }
+/* Version 9 Statistics */
+
+.stats {
+
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+
+}
+
+
+.stats div {
+
+    background:#111;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    border:1px solid #00ffcc;
+
+    min-width:180px;
+
+    box-shadow:0 0 15px rgba(0,255,204,0.3);
+
+}
+
+
+.stats h3 {
+
+    color:#00ffcc;
+
+}
+
+
+.stats p {
+
+    color:white;
+
+}
