@@ -260,3 +260,24 @@ a:hover {
         transform: translateY(0);
     }
     }
+.hero h1 {
+    text-shadow: 0 0 10px #00ffcc,
+                 0 0 20px #00ffcc,
+                 0 0 40px #00ffcc;
+}
+
+.card {
+    border: 1px solid #00ffcc;
+}
+
+.card:hover {
+    border-color: white;
+}
+
+button {
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+button:hover {
+    box-shadow: 0 0 20px #00ffcc;
+        }
