@@ -898,3 +898,26 @@ text-shadow:
     width: 100%;
     box-sizing: border-box;
     }
+.hero{
+    padding:100px 20px;
+}
+
+.hero h1{
+    font-size:56px;
+}
+
+.card{
+    border-radius:20px;
+}
+
+button{
+    transition:.3s;
+}
+
+button:hover{
+    transform:translateY(-3px);
+}
+
+footer{
+    border-top:1px solid #00ffcc;
+}
