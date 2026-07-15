@@ -416,3 +416,330 @@ button {
     }
 
     }
+/* Ryqonex Version 5 Upgrade */
+
+
+/* Section spacing */
+
+section,
+.card {
+
+    scroll-margin-top:100px;
+
+}
+
+
+/* Better mobile text */
+
+@media(max-width:600px){
+
+    p {
+        font-size:16px;
+    }
+
+}
+
+
+/* Token highlight */
+
+.card strong {
+
+    color:#00ffcc;
+
+}
+
+
+/* Navbar glow */
+
+.navbar {
+
+    box-shadow:0 0 20px rgba(0,255,204,0.3);
+
+}
+
+
+
+/* Animated background */
+
+body {
+
+    background-size:400% 400%;
+    animation:bgMove 15s ease infinite;
+
+}
+
+
+@keyframes bgMove {
+
+    0% {
+        background-position:0% 50%;
+    }
+
+    50% {
+        background-position:100% 50%;
+    }
+
+    100% {
+        background-position:0% 50%;
+    }
+
+}
+
+
+
+/* Card entrance */
+
+.card:nth-child(even){
+
+    animation-delay:0.2s;
+
+}
+
+
+
+/* Link buttons */
+
+a:hover {
+
+    text-shadow:0 0 15px #00ffcc;
+
+}
+
+
+
+/* Whitepaper button */
+
+button:active {
+
+    transform:scale(0.95);
+
+}
+
+
+
+/* Better textarea */
+
+textarea {
+
+    font-size:14px;
+    resize:none;
+
+}
+
+
+
+/* Footer glow */
+
+footer {
+
+    border-top:1px solid #00ffcc;
+
+}
+
+
+
+/* Crypto badge style */
+
+.badge {
+
+    display:inline-block;
+
+    padding:8px 15px;
+
+    border-radius:20px;
+
+    background:#00ffcc;
+
+    color:#111;
+
+    font-weight:bold;
+
+}
+
+
+
+/* Loading glow */
+
+.logo-image {
+
+    animation:float 4s ease-in-out infinite;
+
+}
+
+
+@keyframes float {
+
+    0% {
+        transform:translateY(0);
+    }
+
+    50% {
+        transform:translateY(-15px);
+    }
+
+    100% {
+        transform:translateY(0);
+    }
+
+}
+
+
+
+/* Better card border */
+
+.card::before {
+
+    content:"";
+
+    position:absolute;
+
+}
+
+
+
+/* Smooth scrolling */
+
+html {
+
+    scroll-behavior:smooth;
+
+}
+/* Ryqonex Version 6 */
+
+
+/* Dashboard Card Effect */
+
+.card {
+
+    position: relative;
+    overflow: hidden;
+
+}
+
+
+.card::after {
+
+    content:"";
+
+    position:absolute;
+
+    top:-50%;
+    left:-50%;
+
+    width:200%;
+    height:200%;
+
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(0,255,204,0.15),
+        transparent
+    );
+
+    transform:rotate(25deg);
+
+    animation:shine 6s infinite;
+
+}
+
+
+@keyframes shine {
+
+    0% {
+
+        transform:translateX(-100%) rotate(25deg);
+
+    }
+
+    50% {
+
+        transform:translateX(100%) rotate(25deg);
+
+    }
+
+    100% {
+
+        transform:translateX(100%) rotate(25deg);
+
+    }
+
+}
+
+
+
+/* Crypto Stats */
+
+.stats {
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+
+
+.stats div {
+
+    background:#111;
+
+    border:1px solid #00ffcc;
+
+    padding:20px;
+
+    border-radius:15px;
+
+}
+
+
+
+/* Neon Border Animation */
+
+.card {
+
+    animation:borderGlow 4s infinite alternate;
+
+}
+
+
+@keyframes borderGlow {
+
+    from {
+
+        border-color:#00ffcc;
+
+    }
+
+
+    to {
+
+        border-color:#0099ff;
+
+    }
+
+}
+
+
+
+/* Mobile improvement */
+
+@media(max-width:600px){
+
+    .navbar a {
+
+        font-size:14px;
+
+    }
+
+
+    .hero {
+
+        padding:50px 15px;
+
+    }
+
+    }
