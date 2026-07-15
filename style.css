@@ -882,3 +882,19 @@ text-shadow:
 .card {
     margin: 0;
 }
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    width: 100%;
+    box-sizing: border-box;
+    }
