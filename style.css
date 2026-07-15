@@ -191,3 +191,24 @@ a:hover {
 .card strong {
     color: white !important;
     }
+.hero {
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #111, #1a1a1a);
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 42px;
+    color: #00ffcc;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    margin: 10px;
+    }
