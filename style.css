@@ -281,3 +281,30 @@ button {
 button:hover {
     box-shadow: 0 0 20px #00ffcc;
         }
+html {
+    scroll-behavior: smooth;
+}
+
+.card {
+    transition: all 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 0 30px #00ffcc;
+}
+
+button {
+    background: linear-gradient(90deg, #00ffcc, #00aaff);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #00aaff, #00ffcc);
+}
