@@ -743,3 +743,76 @@ html {
     }
 
     }
+/* Version 7 Token Bars */
+
+
+.stats {
+
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+
+}
+
+
+.stats div {
+
+    min-width:150px;
+
+    background:#111;
+
+    padding:20px;
+
+    border-radius:15px;
+
+    border:1px solid #00ffcc;
+
+}
+
+
+.bar {
+
+    width:90%;
+
+    height:15px;
+
+    background:#222;
+
+    margin:10px auto 20px;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+
+.bar span {
+
+    display:block;
+
+    height:100%;
+
+    background:linear-gradient(
+        90deg,
+        #00ffcc,
+        #0099ff
+    );
+
+    border-radius:20px;
+
+    animation:loadBar 2s ease;
+
+}
+
+
+@keyframes loadBar {
+
+    from {
+
+        width:0;
+
+    }
+
+}
