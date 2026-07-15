@@ -183,3 +183,7 @@ span {
 a:hover {
     color: #00ffcc !important;
     }
+.card,
+.card * {
+    color: white !important;
+}
