@@ -44,6 +44,14 @@
         readonly
         style="width:90%;padding:10px;border-radius:8px;border:none;text-align:center;">
 </div>
+    <button onclick="copyContract()">Copy Contract</button>
+
+<script>
+function copyContract() {
+    navigator.clipboard.writeText("0x1c5c6B7C1D0A38468575656dec644B87cE1ad385");
+    alert("Contract Address Copied!");
+}
+</script>
 <footer>
     © 2026 Ryqonex (RYQX). All rights reserved.
 </footer>
